@@ -1037,7 +1037,8 @@ let ged2gwb_check conf =
   gwc_or_ged2gwb out_name_of_ged conf
 
 let infer_rc conf rc =
-  if rc > 0 then rc
+  if Sys.unix then rc
+  else if rc > 0 then rc
   else
     match p_getenv conf.env "o" with
     | Some out_file -> if Sys.file_exists (out_file ^ ".gwb") then 0 else 2
@@ -1047,7 +1048,7 @@ let gwc conf =
   let rc =
     let comm = stringify (Filename.concat !bin_dir "gwc") in
     let rc = exec_f (comm ^ parameters conf.env) in
-    if not Sys.unix then infer_rc conf rc else rc
+    infer_rc conf rc
   in
   let gwo = strip_spaces (s_getenv conf.env "anon") ^ "o" in
   (try Sys.remove gwo with Sys_error _ -> ());
@@ -1307,7 +1308,7 @@ let recover_2 conf =
       flush stderr;
       let rc =
         let rc = Sys.command c in
-        if Sys.unix then rc else infer_rc conf rc
+        infer_rc conf rc
       in
       Printf.eprintf "\n";
       flush stderr;
@@ -1357,7 +1358,7 @@ let cleanup_1 conf =
   flush stderr;
   let rc =
     let rc = Sys.command c in
-    if Sys.unix then rc else infer_rc conf rc
+    infer_rc conf rc
   in
   Printf.eprintf "\n";
   flush stderr;
@@ -1580,7 +1581,7 @@ let ged2gwb conf =
   let rc =
     let comm = stringify (Filename.concat !bin_dir conf.comm) in
     let rc = exec_f (comm ^ " -fne '\"\"'" ^ parameters conf.env) in
-    if Sys.unix then rc else infer_rc conf rc
+    infer_rc conf rc
   in
   Printf.eprintf "\n";
   flush stderr;
