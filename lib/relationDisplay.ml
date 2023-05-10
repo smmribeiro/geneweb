@@ -1049,7 +1049,8 @@ let print conf base p = function
             try Left (compute_relationship conf base by_marr p1 p)
             with Consang.TopologicalSortError p -> Right p
           with
-          | Left rel -> print_main_relationship conf base long p1 p rel
+          | Left _rel -> (* rel = None to not print consanguinity *)
+              print_main_relationship conf base long p1 p None
           | Right p -> print_base_loop conf base p))
   | None -> relmenu_print conf base p
 
