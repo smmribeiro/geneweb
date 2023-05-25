@@ -10480,7 +10480,7 @@ en: none/one/two/three/four/five/six/seven/eight/nine/ten/eleven/twelve/thirteen
 fr: aucun/un/deux/trois/quatre/cinq/six/sept/huit/neuf/dix/onze/douze/treize/quartorze/quinze/seize/dix-sept/dix-huit/dix-neuf/vingt/vingt-et-un/vingt-deux/vingt-trois/vingt-quatre/vingt-cinq/vingt-six/vingt-sept/vingt-huit/vingt-neuf/trente/trente-un
 lt: bet koks/vienas/du/trys/keturi/penki/šeši/septyni/aštuoni/devyni/dešimt/vienuolika/dvylika/trylika/kvarcas/penkiolika/šešiolika/septyniolika/aštuoniolika/devyniolika/dvidešimt/dvidešimt vienas/dvidešimt du/dvidešimt trys/dvidešimt keturi/dvidešimt penki/dvidešimt šeši/dvidešimt septyni/dvidešimt aštuoni/dvidešimt devyni/trisdešimt /trisdešimt vienas
 no: ingen/en/to/tre/fire/fem/seks/sju/åtte/ni/ti/elleve/tolv/tretten/fjorten/femten/seksten/sytten/atten/nitten/tjue/tjueen/tjueto/tjuetre/tjuefire/tjuefem/tjueseks/tjuesju/tjueåtte/tjueni/tretti/trettien
-pt: nenhum/um/dois/três/quatro/cinco/seis/sete/oito/nove/dez/onze/doze/treze/catorze/quinze/dezasseis/dezassete/dezoito/dezanove/vinte/winte e um/vinte e dois/vinte e três/vinte quatro/vinte e cinco/vinte e seis/vinte e sete/vinte oito/vinte e e nove/trinta/trinta e um
+pt: nenhum/um/dois/três/quatro/cinco/seis/sete/oito/nove/dez/onze/doze/treze/catorze/quinze/dezasseis/dezassete/dezoito/dezanove/vinte/vinte e um/vinte e dois/vinte e três/vinte quatro/vinte e cinco/vinte e seis/vinte e sete/vinte e oito/vinte e nove/trinta/trinta e um
 sv: ingen/en/två/tre/fyra/fem/sex/sju/åtta/nio/tio/elva/tolv/tretton/fjorton/femton/sexton/sjutton/arton/nitton/tjugo/tjugoen/tjugotvå/tjugotre/tjugofyra/tjugofem/tjugosex/tjugosju/tjugoåtta/tjugonio/trettio/trettioen
 tr: yok/bir/iki/üç/dört/beş/altı/yedi/sekiz/dokuz/on/onbir/oniki/onüç/ondört/onbeş/onaltı/onyedi/onsekiz/ondokuz/yirmi/yirmibir/yirmiiki/yirmiüç/yirmidört/yirmibeş/yirmialtı/yirmiyedi/yirmisekiz/yirmidokuz/otuz/otuzbir
 
@@ -11442,7 +11442,7 @@ nl: aantal personen in leven:
 no: antall personer i live:
 oc: nombre de personas vivas:
 pl: liczba osób żyjących:
-pt: número de pessoas vivas :
+pt: número de pessoas vivas:
 ro: numarul de persoane in viata:
 ru: количество живых персон
 sk: počet žijúcich osôb
